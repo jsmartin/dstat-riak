@@ -14,7 +14,7 @@ or
 
 copy dstat-riak.py to a valid directory.  We'll copy it to home for the example.
 
-    git clone https://github.com/jsmartin/dstat-riak
+    git clone https://github.com/jsmartin/dstat-riak.git
     mkdir $HOME/.dstat
     cp dstat-riak/dstat-riak.py $HOME/.dstat
 
