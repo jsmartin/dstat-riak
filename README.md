@@ -6,7 +6,7 @@ A dstat plugin for Riak
 
 first install dstat :)
 
-  apt-get install dstat
+	apt-get install dstat
 
 or
 
@@ -14,7 +14,7 @@ or
 
 copy dstat-riak.py to a valid directory.  We'll copy it to home for the example.
 
-    git clone https://github.com/jsmartin/dstat-riak.git
+    git clone https://github.com/jsmartin/dstat-riak
     mkdir $HOME/.dstat
     cp dstat-riak/dstat-riak.py $HOME/.dstat
 
@@ -49,6 +49,9 @@ run dstat with an interval of 5.  Riak does only updates its stats counters to t
 		    0  1185     0  1767
 		    
 **gets** - the number of gets per second
+
 **glat** - mean latency for get requests (ms)
+
 **puts** - the number of puts per second
+
 **plat** - mean latency for put requests (ms)
