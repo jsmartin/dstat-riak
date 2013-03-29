@@ -16,7 +16,7 @@ copy dstat-riak.py to a valid directory.  We'll copy it to home for the example.
 
     git clone https://github.com/jsmartin/dstat-riak
     mkdir $HOME/.dstat
-    cp dstat-riak/dstat-riak.py $HOME/.dstat
+    cp dstat_riak/dstat-riak.py $HOME/.dstat
 
 
 Make sure Riak is listening on 127.0.0.1:8098 for HTTP requests (you can have a list of IPs & ports)
